@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.team-card {
+  height: 180px;
+  width: 450px;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 20px;
+  list-style-type: none;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+.team-logo {
+  height: 100%;
+  width: 150px;
+}
+.team-name {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.nav-link-item {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}

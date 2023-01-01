@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.latest-match-card {
+  background-color: #0f172a;
+  height: 400px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 10px 30px;
+}
+.match-card-section {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.date {
+  font-size: 25px;
+}
+.logo-container {
+  align-items: center;
+}
+
+.competing-team-logo {
+  height: 50%;
+}
+.end-section-container {
+  align-items: flex-end;
+}
+.end-section-sub-headings {
+  font-size: 25px;
+  margin: 0;
+}

@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  margin: 0;
+  overflow: auto;
+  padding: 30px;
+  font-family: 'Bree Serif';
+  color: white;
+}
+.RCB {
+  background-image: linear-gradient(to Bottom, #a4261d, #1e293b);
+}
+.KKR {
+  background-image: linear-gradient(to Bottom, #1e293b, #7bf827);
+}
+.KXP {
+  background-image: linear-gradient(to Bottom, #a4261d, #1e293b);
+}
+.CSK {
+  background-image: linear-gradient(to Bottom, #ddf506, #3b2d30);
+}
+.RR {
+  background-image: linear-gradient(to Bottom, #f50699, #3b2d30);
+}
+.MI {
+  background-image: linear-gradient(to Bottom, #3e05c5, #c5fc2f);
+}
+.SH {
+  background-image: linear-gradient(to Bottom, #f26d22, #0f1402);
+}
+.DC {
+  background-image: linear-gradient(to Bottom, #4f5db0, #0f172a);
+}
+.home-btn-container {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+.home-btn {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+}
+.team-banner {
+  height: 400px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.match-card-container {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

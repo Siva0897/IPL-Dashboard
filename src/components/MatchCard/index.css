@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.match-card {
+  list-style-type: none;
+  background-color: #0f172a;
+  height: 500px;
+  width: 30%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 40px;
+}
+.match-card-image {
+  height: 150px;
+}
+.match-card-title {
+  margin-bottom: 60px;
+}
+.match-card-result {
+  margin-bottom: 20px;
+}
+.status-won {
+  font-size: 25px;
+  color: #18ed66;
+}
+.status-lost {
+  font-size: 25px;
+  color: #e31a1a;
+}
