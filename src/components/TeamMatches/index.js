@@ -24,9 +24,9 @@ class TeamMatches extends Component {
   getTeamDetails = async () => {
     const {match} = this.props
     const teamId = match.params.id
+    const path = match.params.id
 
-    const path = match.url
-    const response = await fetch(`https://apis.ccbp.in${path}`)
+    const response = await fetch(`https://apis.ccbp.in/ipl/${path}`)
     const data = await response.json()
     const updatedData = {
       latestMatchDetails: data.latest_match_details,
@@ -77,7 +77,6 @@ class TeamMatches extends Component {
       teamBackgroundImage,
       isLoading,
     } = this.state
-    console.log(latestMatchDetails)
     return isLoading ? (
       <div className="loader-container">
         <Loader type="Oval" color="blue" height={50} width={50} />
